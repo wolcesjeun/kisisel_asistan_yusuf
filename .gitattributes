@@ -1,0 +1,10 @@
+*.framework/Flutter filter=lfs diff=lfs merge=lfs -text
+isolate_snapshot_data filter=lfs diff=lfs merge=lfs -text
+kernel_blob.bin filter=lfs diff=lfs merge=lfs -text
+*.cache filter=lfs diff=lfs merge=lfs -text
+*.framework/** filter=lfs diff=lfs merge=lfs -text
+*.dill filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.app filter=lfs diff=lfs merge=lfs -text
+*.framework filter=lfs diff=lfs merge=lfs -text
+build/** filter=lfs diff=lfs merge=lfs -text
